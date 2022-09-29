@@ -2,5 +2,73 @@
     padding:0;
     margin:0;
     box-sizing:border-box;
+    list-style:none;
 }
 
+.container{
+    max-width:1500px;
+    width:100%; 
+}
+
+.header-flex, .navbar-ul {
+    display:flex;   
+}
+
+.header-flex{
+  background-color:#0A22F4;
+  height:100px;
+  justify-content: space-around;
+  align-items:center;
+     
+}
+
+.navbar-li{
+  color:#ffffff;
+  margin:0 20px;
+  font-size:16px;  
+}
+
+.navbar-con{
+    color:#171717;
+    font-size:16px;
+    background-color:#ffffff;
+    padding:18px 36px 18px 36px;
+}
+.logo{
+    width:97px;
+    height:55px;   
+}
+
+.dot{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+   background-color:#0A22F4;
+    
+}
+
+.dot-trans{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+   background-color:#0A22F4;
+   opacity:30%;
+   margin-left:20px;
+}
+
+.section-flex{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+   
+}
+
+.dots{
+    display:flex;
+    align-content: flex-end;
+    
+}
+
+.space{
+    height:200px;
+}
